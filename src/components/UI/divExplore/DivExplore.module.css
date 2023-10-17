@@ -1,0 +1,16 @@
+.div__explore{
+    background: rgba(123, 115,207 ,0.2 );
+    width: 50%;
+    height: 25em;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.div__explore__img{
+    width: 20%;
+    margin: auto;
+    rotate: 60deg;
+    display: block;
+}
+

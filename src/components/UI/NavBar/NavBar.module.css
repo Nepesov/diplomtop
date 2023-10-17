@@ -1,0 +1,56 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  height: 50px;
+  padding: 0 20px;
+  width: 100vw ; 
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar_brand {
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.navbar_items {
+  display: flex;
+}
+
+.navbar_item {
+  margin-left: 20px;
+}
+
+.navbar_item a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.navbar_item a:hover {
+  color: #ccc;
+}
+.registration{
+  display: flex;
+  justify-content: space-between;
+  width: 150px; 
+}
+
+.registration__btn{
+  color: #fff;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.40) 0%, rgba(220.47, 220.47, 220.47, 0.35) 100%, rgba(0, 0, 0, 0) 100%);
+  font-size: 15px;
+  padding: 0.5em;
+  border-radius: 15px;
+
+}
+
+.mobilebtn{
+  display: none;
+  color: #fff;
+}
+
