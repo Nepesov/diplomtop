@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom'
 import MyModel from '../../MyModel/MyModel'
 import { useState } from 'react'
 import RegForm from '../../regForm/RegForm'
-import {AiOutlineMenu , AiOutlineClose} from 'react-icons/ai'
-import SignUp from '../signup/SignUp'
+// import RegForm from '../../regForm/RegForm'
+// import SignUp from '../signup/SignUp'
 // import MyModelSec from '../../MyModel/MyModelSec'
 
 const NavBar = () => {
@@ -36,13 +36,10 @@ const NavBar = () => {
 
 
   <div className={NavStyles.registration}>
-      <button className={NavStyles.registration__btn} onClick={() => setModel(true)}>Si n in</button>
+      <button className={NavStyles.registration__btn} onClick={() => setModel(true)}>Sign in</button>
 
       <MyModel visible={model} setVisible={setModel}>
-        
-      GGG
-       
-
+        <RegForm></RegForm>
       </MyModel>
 
 
@@ -55,7 +52,6 @@ const NavBar = () => {
 
 
 
-  <AiOutlineMenu className={NavStyles.mobilebtn}></AiOutlineMenu>
 
   
 </div>
