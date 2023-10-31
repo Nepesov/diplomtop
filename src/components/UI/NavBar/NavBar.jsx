@@ -42,12 +42,6 @@ const NavBar = () => {
         <RegForm></RegForm>
       </MyModel>
 
-
-      <button className={NavStyles.registration__btn} onClick={() => setModel(true)}> Sign Up</button>
-
-
-
-
   </div>
 
 

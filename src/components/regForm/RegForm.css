@@ -92,6 +92,189 @@ input[type=text]:focus:-ms-input-placeholder {
   transform: translateX(20px);
   opacity: 0;
 }
+
+
+
+
+
+
+
+
+input[type=email] {
+  font-size: 1.2em;
+  line-height: 1;
+  padding: 0.3em 0.4em;
+  margin: 0 0.5em 1em 0;
+}
+input[type=email]::-webkit-input-placeholder {
+  color: #fff;
+  line-height: 1.2;
+  transition: all 0.2s ease;
+}
+input[type=email]:-moz-placeholder {
+  color: #343b44;
+  line-height: 1.2;
+  transition: all 0.2s ease;
+}
+input[type=email]::-moz-placeholder {
+  color: #343b44;
+  line-height: 1.2;
+  transition: all 0.2s ease;
+}
+input[type=email]:-ms-input-placeholder {
+  color: #343b44;
+  line-height: 1.2;
+  transition: all 0.2s ease;
+}
+input[type=email] + label.error {
+  color: #d84966;
+  margin: -1em 0 2em;
+  display: block;
+  transition: all 0.2s ease;
+}
+input[type=email]:hover {
+  border-color: #4e5966;
+}
+input[type=email]:hover::-webkit-input-placeholder {
+  color: #fff;
+}
+input[type=email]:hover:-moz-placeholder {
+  color: #3f4752;
+}
+input[type=email]:hover::-moz-placeholder {
+  color: #3f4752;
+}
+input[type=email]:hover:-ms-input-placeholder {
+  color: #3f4752;
+}
+input[type=email].error {
+  border-color: #d84966;
+}
+input[type=email].error:hover, input[type=text].error:focus {
+  border-color: #b27b1c;
+}
+input[type=email].error:hover + label.error, input[type=text].error:focus + label.error {
+  color: #b27b1c;
+}
+input[type=email]:focus {
+  outline: none;
+  border-color: #39a086;
+}
+input[type=email]:focus::-webkit-input-placeholder {
+  transform: translateX(20px);
+  opacity: 0;
+}
+input[type=email]:focus:-moz-placeholder {
+  transform: translateX(20px);
+  opacity: 0;
+}
+input[type=email]:focus::-moz-placeholder {
+  transform: translateX(20px);
+  opacity: 0;
+}
+input[type=email]:focus:-ms-input-placeholder {
+  transform: translateX(20px);
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+input[type=password] {
+  font-size: 1.2em;
+  line-height: 1;
+  padding: 0.3em 0.4em;
+  margin: 0 0.5em 1em 0;
+}
+input[type=password]::-webkit-input-placeholder {
+  color: #fff;
+  line-height: 1.2;
+  transition: all 0.2s ease;
+}
+input[type=password]:-moz-placeholder {
+  color: #343b44;
+  line-height: 1.2;
+  transition: all 0.2s ease;
+}
+input[type=password]::-moz-placeholder {
+  color: #343b44;
+  line-height: 1.2;
+  transition: all 0.2s ease;
+}
+input[type=password]:-ms-input-placeholder {
+  color: #343b44;
+  line-height: 1.2;
+  transition: all 0.2s ease;
+}
+input[type=password] + label.error {
+  color: #d84966;
+  margin: -1em 0 2em;
+  display: block;
+  transition: all 0.2s ease;
+}
+input[type=password]:hover {
+  border-color: #4e5966;
+}
+input[type=password]:hover::-webkit-input-placeholder {
+  color: #fff;
+}
+input[type=password]:hover:-moz-placeholder {
+  color: #3f4752;
+}
+input[type=password]:hover::-moz-placeholder {
+  color: #3f4752;
+}
+input[type=password]:hover:-ms-input-placeholder {
+  color: #3f4752;
+}
+input[type=password].error {
+  border-color: #d84966;
+}
+input[type=password].error:hover, input[type=text].error:focus {
+  border-color: #b27b1c;
+}
+input[type=password].error:hover + label.error, input[type=text].error:focus + label.error {
+  color: #b27b1c;
+}
+input[type=password]:focus {
+  outline: none;
+  border-color: #39a086;
+}
+input[type=password]:focus::-webkit-input-placeholder {
+  transform: translateX(20px);
+  opacity: 0;
+}
+input[type=password]:focus:-moz-placeholder {
+  transform: translateX(20px);
+  opacity: 0;
+}
+input[type=password]:focus::-moz-placeholder {
+  transform: translateX(20px);
+  opacity: 0;
+}
+input[type=password]:focus:-ms-input-placeholder {
+  transform: translateX(20px);
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
 input[type=checkbox] + label {
   line-height: 1;
   vertical-align: middle;
@@ -160,3 +343,8 @@ input[type=checkbox]:checked + label > i {
   overflow: hidden;
 }
 
+
+.special_btn_in{
+  font-size: 20px;
+  text-decoration: underline;
+}

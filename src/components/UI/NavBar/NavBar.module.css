@@ -37,7 +37,7 @@
 .registration{
   display: flex;
   justify-content: space-between;
-  width: 150px; 
+  width: 80px; 
 }
 
 .registration__btn{
@@ -49,8 +49,5 @@
 
 }
 
-.mobilebtn{
-  display: none;
-  color: #fff;
-}
+
 
